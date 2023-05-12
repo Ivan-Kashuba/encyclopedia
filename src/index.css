@@ -1,0 +1,158 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: "MariupolRegular";
+    src: local("Mariupol"),
+    url("app/fonts/Mariupol-Regular.woff2") format("truetype");
+}
+
+@font-face {
+    font-family: "MariupolMedium";
+    src: local("Mariupol"),
+    url("app/fonts/Mariupol-Medium.woff2") format("truetype");
+}
+
+@font-face {
+    font-family: "MariupolBold";
+    src: local("Mariupol"),
+    url("app/fonts/Mariupol-Bold.woff2") format("truetype");
+}
+
+html {
+    overflow-y: scroll;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "MariupolRegular", "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.tab-container .ant-tabs-nav-list .ant-tabs-tab-active {
+    background-color: theme("colors.int-gray-secondary");
+}
+
+.tab-container .ant-tabs-nav-list .ant-tabs-tab {
+    margin: 0 50px 0 0;
+    min-width: 180px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tab-container .ant-tabs-nav-list .ant-tabs-tab .ant-tabs-tab-btn {
+    padding: 3px;
+    color: theme("colors.int-white-main");
+}
+
+.tab-container .ant-tabs-nav-list .ant-tabs-tab:hover {
+    color: theme("colors.int-white-secondary");
+}
+
+/*Audio player style input range*/
+input[type=range].my2-slider {
+    width: 100%;
+    margin: -3px 0;
+    background-color: transparent;
+    overflow: hidden;
+    -webkit-appearance: none;
+}
+
+input[type=range].my2-slider:focus {
+    outline: none;
+}
+
+input[type=range].my2-slider::-webkit-slider-runnable-track {
+    border: 0;
+    width: 100%;
+    height: 18px;
+    cursor: pointer;
+}
+
+input[type=range].my2-slider::-webkit-slider-thumb {
+    margin-top: 3px;
+    width: 12px;
+    height: 12px;
+    background: #56a0bb;
+    border: 0px solid rgba(0, 0, 0, 0);
+    border-radius: 12px;
+    cursor: pointer;
+    -webkit-appearance: none;
+}
+
+input[type=range].my2-slider::-moz-range-track {
+
+    border: 0;
+    width: 100%;
+    height: 18px;
+    cursor: pointer;
+}
+
+input[type=range].my2-slider::-moz-range-thumb {
+    width: 12px;
+    height: 12px;
+    background: #56a0bb;
+    border: 0px solid rgba(0, 0, 0, 0);
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+input[type=range].my2-slider::-ms-track {
+    background: transparent;
+    border-color: transparent;
+    border-width: 0 0;
+    color: transparent;
+    width: 100%;
+    height: 18px;
+    cursor: pointer;
+}
+
+input[type=range].my2-slider::-ms-thumb {
+    width: 12px;
+    height: 12px;
+    background: #56a0bb;
+    border: 0px solid rgba(0, 0, 0, 0);
+    border: 0;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+
+.anchor-container .ant-anchor .ant-anchor-link .ant-anchor-link-title {
+    color: theme(colors.int-white-main);
+    font-size: 17px;
+}
+
+.anchor-container .ant-anchor .ant-anchor-link .ant-anchor-link-title-active {
+    color: theme(colors.int-grapefruit);
+}
+
+:where(.css-dev-only-do-not-override-1p0b698).ant-anchor-wrapper-horizontal .ant-anchor .ant-anchor-ink {
+    background-color: theme(colors.int-grapefruit);
+}
+
+:where(.css-dev-only-do-not-override-1p0b698).ant-anchor-wrapper-horizontal .ant-anchor {
+    background-color: theme(colors.int-gray-main);
+    width: 100%;
+    border-radius: 12px;
+    padding-left: 20px;
+    margin-left: -30px;
+}
+
+
+
+
+
