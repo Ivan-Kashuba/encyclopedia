@@ -9,6 +9,7 @@ const PNG = () => {
         <img
           src="https://it-inzhener.com/img/articles/base/1959794105.png"
           alt=""
+          className="w-[500px]"
         />
       </div>
 
@@ -24,11 +25,22 @@ const PNG = () => {
         )}
       </div>
 
-      <div className="text-center my-[40px]">
+      <div className="mt-[40px]">
+        {t(
+          "Приклад з кількома типами вмісту зображень та відображення вартості біта на піксель для наведеного вище файлу PNG (червоний = дорогий, синій = дешевий)"
+        )}
+      </div>
+
+      <div className="flex justify-center my-[40px]">
         <img
-          src="https://www.adobe.com/content/dam/cc/us/en/creativecloud/file-types/image/raster/png-file/thumbnail.jpeg "
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/PNG_demo_Banana.png/250px-PNG_demo_Banana.png"
           alt=""
-          className="h-[400px]"
+          className="mr-[50px] h-[300px]"
+        />
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/PNG_demo_heatmap_Banana.png/251px-PNG_demo_heatmap_Banana.png"
+          alt=""
+          className="h-[300px]"
         />
       </div>
       <div className="mt-[20px]">

@@ -35,7 +35,7 @@ export default {
         "header-height": "60px",
       },
       maxWidth: {
-        "container-size": "1440px",
+        "container-size": "1400px",
       },
       menuWidth: {
         open: "320px",

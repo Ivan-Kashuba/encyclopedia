@@ -18,6 +18,7 @@ const HomePage = () => {
         <div className="mt-[40px]">
           {t("Кафедра комп'ютерних систем та мереж")}
         </div>
+
         <div className="text-center mt-[40px]">
           <img
             src="https://www.uzhnu.edu.ua/uploads/root/logos/UzNU_logo_new2.png"
